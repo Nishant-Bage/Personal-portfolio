@@ -19,9 +19,11 @@ module.exports = {
         specialLink: ['to', 'hrefLeft', 'hrefRight'],
       },
     ],
-    'jsx-a11y/click-events-have-key-events': 0,
+    'react/jsx-indent': ['error', 2], // Adjust '2' to match your preferred indentation level
+    'max-len': ['error', { code: 250 }], // Adjust '100' to match your preferred line length
+    'jsx-a11y/click-events-have-key-events': 'off', // Changed from 0 to 'off' for consistency
     'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/no-static-element-interactions': 0,
+    'jsx-a11y/no-static-element-interactions': 'off',
     'linebreak-style': ['error', os.EOL === '\r\n' ? 'windows' : 'unix'],
     'no-console': [
       'error',
@@ -29,23 +31,23 @@ module.exports = {
         allow: ['warn', 'error', 'info'],
       },
     ],
-    'no-underscore-dangle': 0,
-    'react/destructuring-assignment': 0,
+    'no-underscore-dangle': 'off',
+    'react/destructuring-assignment': 'off',
     'react/function-component-definition': [
-      2,
+      'error',
       { namedComponents: 'arrow-function' },
     ],
     'react/jsx-filename-extension': [
-      1,
+      'warn',
       {
         extensions: ['.js', '.jsx'],
       },
     ],
-    'react/jsx-no-useless-fragment': 0,
-    'react/jsx-one-expression-per-line': 0,
-    'react/jsx-props-no-spreading': 0,
+    'react/jsx-no-useless-fragment': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'react/jsx-wrap-multilines': [
-      1,
+      'warn',
       {
         assignment: true,
         declaration: true,
