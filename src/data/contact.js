@@ -28,7 +28,7 @@ const data = [
     icon: faXTwitter,
   },
   {
-    link: 'mailto:hello@nishantbage.in',
+    link: 'mailto:hello@nishantbage.xyz',
     label: 'Email',
     icon: faEnvelope,
   },

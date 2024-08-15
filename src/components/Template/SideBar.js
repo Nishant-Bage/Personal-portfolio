@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+// const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
-      <Link to="/" className="logo">
+      {/* <Link to="/" className="logo">
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
-      </Link>
+      </Link> */}
       <header>
-        <h2>Nishant Bage</h2>
+        <h2 style={{ color: '#40e0d0' }}>Nishant Bage</h2>
         <p>
-          <a href="nishantbage04@gmail.com">hello@nisahtbage.in</a>
+          <a href="mailto:hello@nisahtbage.xyz">hello@nishantbage.xyz</a>
         </p>
       </header>
     </section>
@@ -22,7 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Nishant.I&apos;m a fullstack developer with 3 years of experience, holding an MCA degree. Currently,
+        Hi, I&apos;m Nishant.I&apos;m a fullstack developer with 3 years of experience, holding a MCA degree. Currently,
         I&apos;m working as a frontend developer at <a href="https://metafic.co/"> Metafic</a>. I&apos;ve contributed to various projects,
         leveraging my expertise in both frontend and backend development.
       </p>
@@ -44,7 +44,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Nishant Bage <Link to="/">nishantbage.in</Link>.
+        &copy; Nishant Bage <Link to="/">nishantbage.xyz</Link>.
       </p>
     </section>
   </section>

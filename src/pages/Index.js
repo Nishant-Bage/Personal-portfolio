@@ -26,12 +26,12 @@ const Index = () => (
         Welcome to my website. Please feel free to know more{' '}
         <Link to="/about">about me</Link>, or you can check out my{' '}
         <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}or{' '}
-        <Link to="/contact">contact</Link> me and discover interactive features throughout.
+        <Link to="/contact">contact me</Link> and discover interactive features throughout.
       </p>
       <p>
         {' '}
         Inspiration from{' '}
-        <a href="https://html5up.net/future-imperfect"> Future Imperfect</a>.
+        <a rel="noreferrer" target="_blank" href="https://html5up.net/future-imperfect"> Future Imperfect</a>.
       </p>
     </article>
   </Main>
