@@ -28,12 +28,17 @@ const data = [
     key: 'countries',
     label: 'Countries visited',
     value: 6,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    link: 'https://www.google.com/maps/d/u/0/edit?mid=18mLb5a9XN7xQ-gnDOA79AKNgjHQRZtI&usp=sharing',
   },
   {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Indore, MP',
+  },
+  {
+    key: 'languages',
+    label: 'languages known',
+    value: 'English, Hindi, Pardon my french',
   },
 ];
 

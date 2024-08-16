@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Rajiv Gandhi Proudyogiki Vishwavidyalaya',
+    degree: 'Master of Computer Application',
+    link: 'https://www.rgpv.ac.in/',
+    year: 2021,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Devi Ahilya Vishwavidyalaya',
+    degree: 'Bachelor of Computer Applications',
+    link: 'https://www.dauniv.ac.in/',
+    year: 2018,
   },
 ];
 

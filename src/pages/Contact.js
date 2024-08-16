@@ -19,7 +19,7 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch. You can say hello at: </p>
+        <p>Feel free to get in touch. You can say hello or hire me at: </p>
         <a href="mailto:hello@nishantbage.xyz">hello@nishantbage.xyz</a>
         {/* <EmailLink /> */}
       </div>
