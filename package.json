@@ -1,7 +1,6 @@
 {
   "name": "personal-site",
   "version": "1.0.0",
-  "homepage": "https://nishant-bage.github.io/Personal-portfolio/",
   "license": "MIT",
   "engines": {
     "node": ">=16.x"
@@ -10,8 +9,6 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "test": "npx jest"
   },
